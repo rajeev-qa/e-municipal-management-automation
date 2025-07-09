@@ -1,0 +1,30 @@
+{
+  "users": {
+    "valid_user": {
+      "name": "Suman Sarkar",
+      "phone": "9155949093",
+      "email": "suman.sarkar@gmail.com",
+      "hospital": "Sayam Hospital",
+      "aadhar": "A234234234YX",
+      "saf": "SAF/02/236255555",
+      "con": "CON/2653626666"
+    },
+    "invalid_user": {
+      "name": "",
+      "phone": "123",
+      "email": "invalid-email"
+    }
+  },
+  "grievances": {
+    "water_issue": {
+      "description": "Water Sewage in my area KKMcolony road no 2",
+      "location": "Kokary Road",
+      "type": "water_sewage"
+    },
+    "electricity_issue": {
+      "description": "Power outage for 3 days",
+      "location": "Main Street",
+      "type": "electricity"
+    }
+  }
+}

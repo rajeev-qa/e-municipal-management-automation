@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GrievanceSuite">
+    <test name="GrievanceTest">
+        <classes>
+            <class name="com.aadrika.e_grievance.e_municipal_management.GrievanceTest" />
+        </classes>
+    </test>
+</suite>
+

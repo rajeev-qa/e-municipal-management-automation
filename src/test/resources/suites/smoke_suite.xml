@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite" parallel="methods" thread-count="2">
+    
+    <parameter name="browser" value="chrome"/>
+    
+    <test name="GrievanceSmokeTests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.aadrika.egovernance.tests.smoke.GrievanceSmokeTest"/>
+        </classes>
+    </test>
+    
+</suite>
